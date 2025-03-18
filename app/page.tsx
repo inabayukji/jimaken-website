@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
-      <AIMatchingSection />
       <DifferentiationSection />
+      <AIMatchingSection />
       <ResultsSection />
       <ServicesSection />
       <CEOSection />
