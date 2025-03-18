@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "施工管理Pro - 施工管理技士と建設会社をつなぐマッチングプラットフォーム",
-  description: "施工管理技士と建設会社をつなぐ、業界特化型マッチングプラットフォーム。AIを活用した最適なマッチングで、建設業界の人材課題を解決します。",
+  title: "田中島建設人材株式会社 - 建築・施工管理転職の窓口",
+  description: "建設・施工管理の専門家と建設会社をつなぐ転職支援サービス。建設業界の人材課題解決をサポートします。",
 };
 
 export default function RootLayout({
