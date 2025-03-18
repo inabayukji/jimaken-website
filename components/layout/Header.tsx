@@ -24,7 +24,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           {/* ロゴ */}
           <Link href="/" className="flex items-center">
-            <span className="text-xl font-bold">ホーム</span>
+            <span className="text-sm sm:text-base md:text-xl font-bold whitespace-nowrap">建築・施工管理転職の窓口</span>
           </Link>
 
           {/* デスクトップナビゲーション */}
