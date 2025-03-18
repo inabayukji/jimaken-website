@@ -19,7 +19,7 @@ export default function HeroSection() {
         }}
       ></div>
       
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 lg:py-36 relative z-20">
+      <div className="container mx-auto px-2 sm:px-4 lg:px-8 py-20 md:py-28 lg:py-36 relative z-20">
         <div className="max-w-4xl">
           <motion.h1 
             className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
@@ -27,7 +27,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            1級施工管理技士に届く、<br />
+            1級施工管理技士に届く<br />
             <span className="text-[#FF9900]">攻め</span>の採用戦略。<br />
             あなたの会社に最適な人材を。
           </motion.h1>

@@ -32,11 +32,11 @@ export default function Header() {
           : "bg-transparent py-4"
       )}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-2 sm:px-4 lg:px-8">
         <div className="flex items-center">
           {/* ロゴ */}
           <Link href="/" className="flex items-center">
-            <span className={`text-xl font-bold ${isScrolled ? 'text-[#0052CC]' : 'text-white'}`}>
+            <span className={`text-sm sm:text-lg md:text-xl font-bold whitespace-nowrap ${isScrolled ? 'text-[#0052CC]' : 'text-white'}`}>
               田中島建設人材株式会社
             </span>
           </Link>
